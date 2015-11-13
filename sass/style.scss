@@ -1,0 +1,6 @@
+// TODO: it is impossible to use variables in import..
+// TODO: but I really want to import only needed files e.g. which we choose on drupal's side
+// TODO: or at least generate this file by drupal and add it to .gitignore
+@import "default/index";
+// mysite will be placed at the same level as "default" and will have same structure.
+//@import "mysite/index";

@@ -1,0 +1,20 @@
+I think that the following page elements cover all usage cases:
+1) nodes
+2) blocks
+3) views
+4) pages (like "layouts")
+
+Also I believe that having multiple _mixins.scss files is better than one big file.
+e.g. some mixins used for pages only.
+// TODO: sure probably we can use _variables.scss files as well. But I believe all additional variables can be set in mixins.
+
+I make some restrictions on filenames.
+I think that all names like node bundles, no view modes, Views names should be written with "-" instead of "_".
+"_" will be used to split filenames on "SCSS" logical parts.
+For example,
+
+_view_here-goes-view-name.scss
+_node_here-goes-node-bundle.scss
+_page_here-goes-arg-0_here-goes-arg-1.scss
+
+Please use README inside each item for details.

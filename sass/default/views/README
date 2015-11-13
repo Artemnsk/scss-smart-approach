@@ -1,0 +1,7 @@
+Let's call files here like
+
+_view*_VIEWNAME*.scss
+
+I think we can combine all displays of each view inside one file because it will not so lots content inside anyway.
+
+See folder contents for examples.

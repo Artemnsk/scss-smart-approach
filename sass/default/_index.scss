@@ -1,0 +1,15 @@
+$sitename: "";
+
+body#{$sitename} {
+  // Because $sitetheme is empty for default all mixins and variables that we place here will be visible to other websites
+  // TODO: 2check it?
+  // .. and also because of $sitename selector all rules for other sites will be "stronger" than default
+  // .. sure if we will use same conventions about placing CSS files and CSS wrappers.
+  @import "variables";
+  @import "mixins";
+  // TODO: maybe we can import all items using something like "*/index"?
+  @import "pages/index";
+  @import "views/index";
+  @import "blocks/index";
+  @import "nodes/index";
+}

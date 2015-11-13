@@ -1,0 +1,7 @@
+// General CSS for blocks. E.g. remove contextual links from menu blocks :)
+.block {
+  &.block-menu {
+    // Get rid of contextual links.
+  }
+  // ...
+}
